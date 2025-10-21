@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docling-mpi"
+version = "0.1.0"
+description = "Docling-based multi-node MPI processing pipeline"
+authors = [{ name = "Docling MPI Team" }]
+requires-python = ">=3.11"
+dependencies = [
+    "mpi4py",
+    "docling>=0.2.0",
+]
+
+[project.scripts]
+docling-mpi = "docling_mpi.__main__:main"
