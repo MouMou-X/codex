@@ -1,5 +1,6 @@
 # Codex
 
+
 本仓库包含基于 Docling 的多节点智能分片并行处理系统设计与实现。
 
 ## 目录结构
@@ -29,3 +30,8 @@
    - `--output-dir` 结果输出目录，默认 `output/`。
 
 处理完成后，每个工作节点会在 `output/rank_<id>/` 目录中写出 JSON 结果，文件名对应 `PDF` 的页块标识。
+=======
+本仓库包含基于 Docling 的多节点智能分片并行处理系统设计文档。
+
+- [基于 Docling 的多节点智能分片并行处理系统设计](docs/docling_mpi_design.md)
+
